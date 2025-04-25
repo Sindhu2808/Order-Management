@@ -1,0 +1,8 @@
+});
+    roles: [{ role: "root", db: "admin" }]
+    pwd: "newpassword",
+    user: "root",
+db.createUser({
+use admin;
+mongosh "mongodb://root:password@localhost:27017/admin"
+docker ps | grep mongo
