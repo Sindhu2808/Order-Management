@@ -34,4 +34,6 @@ build/
 
 # Ignore MySQL runtime files
 mysql/*.sock
+# Ignore MySQL runtime data
+mysql/
 
